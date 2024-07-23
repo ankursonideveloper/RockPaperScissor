@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <div class="wall">
+      <h1 id="title">Rock Paper Scissor Game</h1>
+      <button
+        class="game"
+        id="rock"
+        onclick="document.getElementById('player').innerText = actiona('You','👊Rock' );
+        computerChoice = mapToAction(getRandomNumber());
+        document.getElementById('computer').innerText = actiona('Computer',computerChoice );
+        document.getElementById('final').innerText = resultDecider('👊Rock',computerChoice);
+        "
+      >
+        👊Rock
+      </button>
+      <button
+        class="game"
+        id="paper"
+        onclick="document.getElementById('player').innerText = actiona('You','✋Paper' );
+        computerChoice = mapToAction(getRandomNumber());
+        document.getElementById('computer').innerText = actiona('Computer',computerChoice );
+        document.getElementById('final').innerText = resultDecider('✋Paper',computerChoice);"
+      >
+        ✋Paper</button
+      ><button
+        class="game"
+        id="scissor"
+        onclick="document.getElementById('player').innerText = actiona('You','✌️Scissor' );
+        computerChoice = mapToAction(getRandomNumber());
+        document.getElementById('computer').innerText = actiona('Computer',computerChoice );
+        document.getElementById('result').innerText = resultDecider('✌️Scissor',computerChoice);"
+      >
+        ✌️Scissor
+      </button>
+      <div id="outcome">
+        <p class="result" id="player"></p>
+        <p class="result" id="computer"></p>
+        <p class="result" id="final"></p>
+      </div>
+    </div>
+  </body>
+</html>
