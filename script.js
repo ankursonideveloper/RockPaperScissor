@@ -15,17 +15,17 @@ function mapToAction(input) {
   }
 }
 function resultDecider(userChoice, computerChoice) {
-  if (userChoice === "👊Rock" && computerChoice === "✋Paper") {
+  if (userChoice == "👊Rock" && computerChoice == "✋Paper") {
     return "Computer won";
-  } else if (userChoice === "👊Rock" && computerChoice === "✌️Scissor") {
+  } else if (userChoice == "👊Rock" && computerChoice == "✌️Scissor") {
     return "Hurray! You won";
-  } else if (userChoice === "✋Paper" && computerChoice === "✌️Scissor") {
+  } else if (userChoice == "✋Paper" && computerChoice == "✌️Scissor") {
     return "Computer won";
-  } else if (userChoice === "✋Paper" && computerChoice === "👊Rock") {
+  } else if (userChoice == "✋Paper" && computerChoice == "👊Rock") {
     return "Hurray! You won";
-  } else if (userChoice === "✌️Scissor" && computerChoice === "👊Rock") {
+  } else if (userChoice == "✌️Scissor" && computerChoice == "👊Rock") {
     return "Computer won";
-  } else if (userChoice === "✌️Scissor" && computerChoice === "✋Paper") {
+  } else if (userChoice == "✌️Scissor" && computerChoice == "✋Paper") {
     return "Hurray! You won";
   } else {
     return "It's a tie.";
