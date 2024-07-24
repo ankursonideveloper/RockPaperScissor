@@ -28,13 +28,14 @@
   background-color: blue;
 }
 #outcome {
-  width: 80%;
+  width: 51%;
   display: flex;
   flex-direction: column;
   align-items: left;
   margin-top: 15px;
   margin-bottom: 25px;
-  margin-left: 26%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .result {
   margin: 1px;
