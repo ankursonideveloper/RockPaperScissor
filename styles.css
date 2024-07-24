@@ -31,9 +31,10 @@
   width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   margin-top: 15px;
   margin-bottom: 25px;
+  margin-left: 26%;
 }
 .result {
   margin: 1px;
