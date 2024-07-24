@@ -43,6 +43,9 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.5em;
 }
+#final {
+  font-size: 1.7em;
+}
 #rock:hover {
   background-color: red;
 }
